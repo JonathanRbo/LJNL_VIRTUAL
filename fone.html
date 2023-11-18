@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/stilo.css">
+  <link rel="stylesheet" href="style/slideshow.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="index.html" >
+      <img src="img/logo.jpeg" alt="Avatar_Logo" style="width:60px;" class="rounded-pill">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <nav class="navbar bg-dark navbar-dark">
+          <div class="container">
+            <h3 class="text-info text-logo">LJNL</h3>
+          </div>
+          <div class="container">
+            <span class="text-info text-description">Uma nova loja voltada totalmente ao consumidor!</span>
+          </div>
+        </nav>
+        <form class="d-flex ms-4" data-bs-theme="dark">
+          <input class="form-control me-2" type="text" placeholder="Buscar produtos">
+          <button class="btn btn-primary" type="button">Pesquisar</button>
+        </form>
+        <div class="dropdown dropdown ms-3">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Idioma
+          </button>
+          <div class="dropdown-menu" aria-labelledby="languageDropdown">
+            <a class="dropdown-item" href="#">
+              <img src="img/brasil.jpg" alt="Português" style="width:30px;"> Português
+            </a>
+            <a class="dropdown-item" href="fone_en.html">
+              <img src="img/unidos.png" alt="Inglês" style="width:30px;"> Inglês
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="carinho_geral.html" class="nav-link" href="#">Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Rastrear</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container produtos">
+    <div class="row">
+
+      <div class="col-lg-6 col-md-6 text-center">
+        <div class="fpage">
+          <div class="card" data-bs-theme="dark">
+            <img class="card-img-top" src="img/fone.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Headphone Bluetooth</h4>
+              <p class="card-text">Os fones de ouvido sem fio utilizam o Bluetooth para se conectar aos dispositivos de áudio, com sons limpos e suaves </p>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <button type="button" class="btn btn-primary">Sony</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 lado mt-3 text-white">
+        <button type="button" class="btn btn-dark">Black Friday</button>
+        <br>
+        <p>⭐⭐⭐⭐⭐(7820)</p>
+        <p>Produto Disponivel</p>
+        <br>
+        <h2>R$ 299,99</h2>
+        <h3 text-danger>10x de R$ 29,99 s/ juros</h3>
+        <br>
+        <form>
+          <label for="quantidade">Quantidade:</label>
+          <select id="quantidade" name="quantidade">
+            <option value="1">1 Unidade</option>
+            <option value="2">2 Unidades</option>
+            <option value="3">3 Unidades</option>
+            <option value="4">4 Unidades</option>
+            <option value="5">5 Unidades</option>
+          </select>
+        </form>
+        <br>
+        <a href="login.html">
+        <button type="button" class="btn btn-primary">Comprar</button>
+        </a>
+        <a href="carinho_fone.html">
+          <button   type="button" class="btn btn-secondary">Adicionar ao Carrinho</button>
+          </a>
+        
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
