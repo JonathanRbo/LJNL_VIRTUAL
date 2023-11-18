@@ -1,0 +1,8 @@
+@media screen and (min-width: 769px) {
+    .area {
+        margin-left: 300px;
+        margin-right: 300px;
+        border: 4px solid white;
+        border-radius: 5px;
+    }
+}
